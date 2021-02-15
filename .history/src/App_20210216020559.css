@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.button:hover input { background-color:red}
+
+input[type="tel"] {
+  padding: 12px 46px;
+  font-size: 25px;
+  font-weight: bolder;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+.col-sm-6.text-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+}
+
+.button-content {
+  height: 200px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-text {
+  height: 500px;
+  
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+input[type="submit"] {
+  padding: 18px 40px;
+  font-size: 21px;
+  border-radius: 37px;
+  background: #9eddcf;
+  border-color: orange;
+  border: 2px solid;
+}
+
+user agent stylesheet .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
